@@ -1,0 +1,51 @@
+package test;
+
+import java.util.Scanner;
+
+public class Example01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * ---------출력 예시--------
+		 * 이름 : 본인이름        name
+		 * 나이 : 25            age
+		 * 주소 : 서울시 천호동    address
+		 * 몸무게 : 77.5kg       weight	
+		 * 
+		 
+		
+		String name = "고건우";
+		int age = 23;
+        String wddress = "경기도 이천시";
+        double weight = 78.4;
+        
+	System.out.println("이름 : "+ name);	
+	System.out.println("나이 : "+ age);	
+	System.out.println("주소 : "+ wddress);	
+	System.out.println("몸무게 : "+ weight +"Kg");	
+	
+		*/
+		
+		Scanner sc = new Scanner(System.in);
+
+		
+		String name = sc.nextLine();
+		int age = Integer.parseInt(sc.nextLine());
+		String address = sc.nextLine();
+		double weight = Double.parseDouble(sc.nextLine());
+		
+		
+		
+		System.out.println("이름은 : " + name);
+		System.out.println("나이는 : " + age);
+		System.out.println("주소는 : " + address);
+		System.out.println("몸무게는 : " + weight);
+		System.out.println("end!!");
+		
+		
+		
+	}
+
+}

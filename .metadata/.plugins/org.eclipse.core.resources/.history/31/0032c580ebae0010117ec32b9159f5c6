@@ -1,0 +1,42 @@
+package test;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello java");
+		System.out.println("Hello java");
+		
+	
+	
+	char var1 = 'A';
+	char c1 = 68;
+	
+	
+	
+	char var2 = '가';
+	char c2 = 44032;		
+	
+	System.out.println(var1);
+	System.out.println(c1);
+	
+	System.out.println(var2);
+	System.out.println(c2);
+	
+	
+    int age = 20.5;        
+    String addr = "경기도";
+    
+    //'%n'지시자를 사용 안 했을 경우
+    System.out.printf("줄바꿈 기능");
+    System.out.printf("없음.");
+    
+    //'%n'지시자를 사용한 경우
+    System.out.printf("줄바꾸기%n");
+    System.out.printf("성공!%n");
+    
+    System.out.printf("내 나이는 %d살 입니다.%n",age);
+    System.out.printf("내 나이는 %d살 이고 %s에 살고 있습니다.%n",age,addr);
+	}
+
+}

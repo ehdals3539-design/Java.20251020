@@ -1,0 +1,23 @@
+package test;
+
+import java.util.Scanner;
+
+public class Example03 {
+
+	public static void main(String[] args) {
+		
+	Scanner ar = new Scanner(System.in);
+	
+	String 문자 = ar.nextLine();
+	int 숫자 = ar.nextInt();
+	Double 실수 = ar.nextDouble();
+	
+		ar.close();
+		
+		System.out.println("문자: " + 문자);
+		System.out.println("숫자: " + 숫자);
+		System.out.println("실수: " + 실수);
+		
+	}
+
+}

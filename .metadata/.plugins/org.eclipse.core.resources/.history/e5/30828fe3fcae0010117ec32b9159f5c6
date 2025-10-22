@@ -1,0 +1,24 @@
+package test;
+
+public class Example01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * ---------출력 예시--------
+		 * 이름 : 본인이름        name
+		 * 나이 : 23            age
+		 * 주소 : 경기도 이천시     address
+		 * 몸무게 : 77.5kg       weight	
+		 * 
+		 */
+		
+		String name = "고건우";
+
+	System.out.println("이름 : "+ name);	
+		
+		
+	}
+
+}
