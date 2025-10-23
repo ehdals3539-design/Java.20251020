@@ -18,6 +18,9 @@ public class Example03 {
 		System.out.println("숫자: " + 숫자);
 		System.out.println("실수: " + 실수);
 		
+		
+		System.out.println(Short.MAX_VALUE);
+		System.out.println(Short.MIN_VALUE);
 	}
 
 }

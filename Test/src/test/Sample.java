@@ -78,7 +78,7 @@ public class Sample {
 	int iNum2 = 5;
 	int iNum3 = 2;
 	
-	dNum = iNum2 / (double)iNum3; 
+	dNum = iNum2 / (float)iNum3; 
 	System.out.println("dNum : " + dNum);
 	
 	
