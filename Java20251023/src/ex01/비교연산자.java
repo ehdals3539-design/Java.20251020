@@ -48,6 +48,8 @@ public class 비교연산자 {
 	    
 	    System.out.println(15^ 5);
 	    
+	    System.out.println("----------삼항연산자(조건연산자)-------");
+	    
 	}
 
 }
